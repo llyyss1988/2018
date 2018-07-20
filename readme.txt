@@ -6,3 +6,4 @@ Git has a mutable index called stage.
 Git tracks changes.
 vv1
 svn
+sssss
