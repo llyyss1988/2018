@@ -16,6 +16,7 @@ fi
 
 if [ -d "./node-v10.15.3-linux-x64/bin" ]; then
     echo 'file have ...node-v10.15.3-linux-x64'
+    echo 'file have ...node-v10.15.3-linux-x64'
 else
     echo 'file no...node-v10.15.3-linux-x64'
     echo 'wget https://nodejs.org/dist/latest-v10.x/node-v10.15.3-linux-x64.tar.gz'
