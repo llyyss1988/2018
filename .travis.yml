@@ -1,0 +1,10 @@
+language: python
+sudo: required
+cache:
+  directories:
+    - $(pwd)/node-v10.15.3-linux-x64
+script: 
+  - chmod a+x ./deploy.sh
+  - chmod a+x ./cc.sh
+  - ./deploy.sh
+  - ./cc.sh
