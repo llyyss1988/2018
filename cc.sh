@@ -14,7 +14,7 @@ else
     tar xf cc_linux_x64_1_11_1
 fi
 
-if [ -d "./node-v10.15.3-linux-x64" ]; then
+if [ -d "./node-v10.15.3-linux-x64/bin" ]; then
     echo 'file have ...node-v10.15.3-linux-x64'
 else
     echo 'file no...node-v10.15.3-linux-x64'
