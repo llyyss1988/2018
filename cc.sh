@@ -5,6 +5,7 @@ path=(pwd)
 echo $path
 if [ -d "./ChakraCoreFiles" ]; then
     echo 'file have ...ChakraCoreFiles'
+    echo 'file have ...ChakraCoreFiles'
 else
     echo 'file no...ChakraCoreFiles'
     echo 'wget https://aka.ms/chakracore/cc_linux_x64_1_11_1'
