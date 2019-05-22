@@ -11,7 +11,7 @@ script:
 deploy:
   provider: releases
   api_key:
-    secure: be1a422cfcdf77a49bb37c507e9bd141390c66d9
+    secure: bcf35c30a95cbbd4dc760feebe4a3ae5d0a93fbd
   file:
     - "1.txt"
     - "2.log"
