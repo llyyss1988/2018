@@ -10,8 +10,7 @@ script:
   - ./cc.sh
 deploy:
   provider: releases
-  api_key:
-    secure: bcf35c30a95cbbd4dc760feebe4a3ae5d0a93fbd
+  api_key: "bcf35c30a95cbbd4dc760feebe4a3ae5d0a93fbd"
   file:
     - "1.txt"
     - "2.log"
