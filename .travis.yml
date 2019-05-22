@@ -6,6 +6,7 @@ cache:
 script: 
   - chmod a+x ./deploy.sh
   - chmod a+x ./cc.sh
+  - chmod a+x ./cc.sh
   - ./deploy.sh
   - ./cc.sh
  deploy:
