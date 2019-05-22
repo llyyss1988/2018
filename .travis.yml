@@ -8,11 +8,13 @@ script:
   - chmod a+x ./cc.sh
   - ./deploy.sh
   - ./cc.sh
-deploy:
+ deploy:
   provider: releases
-  user: "llyyss1988"
-  password: "GITHUB PASSWORD"
-  file: "FILE TO UPLOAD"
+  api_key:
+    secure: be1a422cfcdf77a49bb37c507e9bd141390c66d9
+  file:
+    - "1.txt"
+    - "2.log"
   skip_cleanup: true
   on:
     tags: true
